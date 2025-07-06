@@ -1,9 +1,11 @@
 import HeroText from "../components/HeroText.jsx";
+import ParallaxBackground from "../components/ParallaxBackground.jsx";
 
 const Hero = () => {
     return (
-        <section className={"flex items-start justify-start md:items-start md:justify-start min-h-screen overflow-hidden"}>
+        <section className={"flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"}>
             <HeroText />
+            <ParallaxBackground />
         </section>
     )
 }

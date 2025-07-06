@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className="max-auto c-space max-w-7xl">
                 <div className={"flex items-center justify-between py-2 sm:py-0"}>
                     <a href={"/"}
-                        className={"capitalize text-xl font-bold text-white text-neutral-400 hover:text-white"}
+                        className={"capitalize text-xl font-bold  text-neutral-400 hover:text-white"}
                     >
                         alfonzo
                     </a>
